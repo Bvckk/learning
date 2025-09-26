@@ -1,14 +1,11 @@
 import './App.css'
-import showMessage from "./components/showMessage"
-
+import Drapdrop from './components/drap-drop';
 function App() {
   return (
-    <div className="App">
-      <h1>Javajscript example</h1>
-      
-      <button onClick={showMessage}>Click me</button>
+    <div>
+      <Drapdrop />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
