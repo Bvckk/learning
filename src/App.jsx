@@ -1,9 +1,9 @@
 import './App.css'
-import Dragdrop from './components/drag-drop';
+import Canvas from './components/canvas';
 function App() {
   return (
     <div>
-      <Dragdrop />
+      <Canvas />
     </div>
   );
 }
